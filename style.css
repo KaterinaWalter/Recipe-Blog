@@ -53,9 +53,9 @@ a {
     background: rgb(114, 107, 144);
     border-radius: 10px;
     padding: 8px;
+    margin: 3px;
     display: inline-block;
     text-align: center;
-    margin: auto;
 }
 
 
