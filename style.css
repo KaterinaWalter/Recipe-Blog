@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Patrick+Hand&display=swap');
+
+/* General page styles */
+body {
+    background-color: lavender;
+    font-family: 'Patrick Hand';
+}
+
+/* Apply special font to headings */
+h1, h2, h3 {
+    font-family: 'Borel';
+    text-align: center;
+}
+
+/* Styles applied to ALL recipes */
 .recipe-section {
     border: 2px solid black;
     border-radius: 20px;
@@ -5,3 +20,27 @@
     margin: 5px;
     background: beige;
 }
+
+h1 {
+    color: rgb(114, 107, 144);
+    text-shadow: 1px 1px 0px black;
+}
+
+hr {
+    border: 5px dashed black;
+}
+
+img {
+    border: 5px solid white;
+    border-bottom-width: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.centered-container {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+
