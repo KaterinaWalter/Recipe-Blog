@@ -16,11 +16,11 @@ h1, h2, h3 {
 
 /* Styles applied to ALL recipes */
 .recipe-section {
+    background: beige;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
-    margin: 5px;
-    background: beige;
+    margin: 5%;
 }
 
 h1 {
@@ -39,6 +39,7 @@ hr {
     border: 5px solid white;
     border-bottom-width: 30px;
     box-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
     
     /* Shoutout to Julia for code below! */
     aspect-ratio: 1 / 1;
@@ -63,8 +64,13 @@ a {
     margin: 3px;
     display: inline-block;
     text-align: center;
+    text-decoration: none;
     color: black;
     font-size: 12px;
+}
+
+a:hover {
+    color: beige;
 }
 
 .flex {
