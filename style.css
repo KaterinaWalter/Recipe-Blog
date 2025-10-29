@@ -85,3 +85,14 @@ p {
 em {
     color:#717174;
 }
+
+h2 {
+    padding: 15px 0;
+}
+h3 {
+    margin-top: 10px;
+}
+
+ol,ul {
+    margin: 0;
+}
