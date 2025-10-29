@@ -56,7 +56,6 @@ hr {
 
 /* How to make links look like buttons */
 a {
-    color: black;
     background: linear-gradient(to top, #726b90 0%, #f6f3ff 100%);
     border: 2px solid black;
     border-radius: 10px;
@@ -64,6 +63,8 @@ a {
     margin: 3px;
     display: inline-block;
     text-align: center;
+    color: black;
+    font-size: 12px;
 }
 
 .flex {
